@@ -10,7 +10,7 @@
 
 @protocol XQTimerDelegate <NSObject>
 
-@property (nonatomic, strong) dispatch_source_t xq_ocTimer;
+@property (nonatomic, strong, nullable) dispatch_source_t xq_ocTimer;
 
 /**
  计时器调用
